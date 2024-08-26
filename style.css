@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+/* ---------Header Start-------------- */
+
+header{
+    height: 90vh;
+    width: 100vw;
+    background-image: url(image/main-hero-banner-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav-item{
+    font-weight: 400;
+}
+.nav-link{
+    color: #ffff;
+    margin-right: 15px;
+    margin-top: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link:hover{
+    color: #ffff;
+    border-bottom: 1px solid #fde52c;
+    border-top: 1px solid #fde52c;
+    border-radius: 3px;
+}
+
+.carousel-item img {
+    padding-top: 50px;
+    
+}
+
+
+
+
+/* ---------Header End-------------- */
+
+
+/* -----------section Two Take-risk Start----------- */
+
+.two-take-risk h2{
+    color: #002e5b;
+}
+
+.two-take-risk h6{
+    color: #838586;
+    font-size: 20px;
+}
+
+.two-take-risk p{
+    color: #2d2d2e;
+    font-size: 15px;
+}
+
+.two-take-risk button {
+    border: none;
+    background: none;
+    color: #002e5b;
+    font-weight: 700;
+    transition: all .3s ease-out;
+    border-bottom: 2px solid #002e5b;
+}
+
+.two-take-risk button:hover {
+    color: #085099;
+    border-bottom: 2px solid #085099; 
+}
+
+/* -----------section Two Take-risk End----------- */
+
+
+
+/* --------section-three graph start---------- */
+
+.three-graph{
+    min-height: 700px;
+    width: 100vw;
+    background-color: #f4f4f4;
+}
+
+.three-graph h2{
+    color: #002e5b;
+}
+
+.three-graph h6{
+    color: #838586;
+    font-size: 20px;
+}
+.three-graph p{
+    color: #2d2d2e;
+    font-size: 15px; 
+}
+
+.three-graph  button {
+    border: none;
+    background: none;
+    color: #002e5b;
+    font-weight: 700;
+    transition: all .3s ease-in;
+    border-bottom: 2px solid #002e5b;
+}
+
+.three-graph button:hover {
+    color: #085099;
+    border-bottom: 2px solid #085099; 
+}
+
+/* --------section-three graph End---------- */
+
+/* ----------Contact-now-button Start------------ */
+
+.contact-now{
+    min-height: 80px;
+    width: 100vw;
+    background-color: #002e5b;
+}
+
+.contact-now h4 {
+    color: #ffff;
+    font-weight: 700;
+}
+
+.contact-now  button {
+    border: none;
+    background-color: #fde52c;
+    color: #002e5b;
+    font-weight: 700;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.contact-now button:hover {
+    background-color: #a8960a;
+}
+
+/* ----------Contact-now-button End------------ */
+
+
+
+/* --------------Service Start--------------- */
+
+.heading h1 {
+    font-weight: 700;
+    color: #002e5b;
+}
+
+.heading h6 {
+    font-weight: 400;
+    color: #636566;
+    font-size: 22px;
+}
+
+.service h4{
+    color: #002e5b;
+}
+
+.service-box{
+    transition: all .3s ease-in-out;
+}
+
+.service-box:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/* --------------Service End--------------- */
+
+/* -------counter-number start-------------- */
+
+.counter-number{
+    min-height: 200px;
+    width: 100vw;
+    background-color: #002e5b;
+}
+
+.counter-number h1{
+    color: #ffff;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.counter-number h6{
+    color: #ffff;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+/* -------counter-number end-------------- */
+
+
+/* ---------why-we-best start----------- */
+
+.why-we-best h2{
+    color: #085099;
+    font-weight: 700;
+}
+
+.why-we-best p{
+    font-size: 15px;
+    color: #2d2d2e;
+}
+
+.why-we-best button {
+    border: none;
+    background: none;
+    color: #002e5b;
+    font-weight: 700;
+    transition: all .3s ease-in;
+    border-bottom: 2px solid #002e5b;
+}
+
+.why-we-best button:hover {
+    color: #085099;
+    border-bottom: 2px solid #085099; 
+}
+/* ---------why-we-best end----------- */
+
+
+/* ----------testimonial Start----------- */
+
+.testimonial{
+    min-height: 350px;
+    width: 100vw;
+    background-color: #002e5b;
+}
+.testimonial p {
+    color: #ffff;
+    font-size: 16px;
+    padding: 0 50px;
+}
+
+.testimonial h6 {
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 400;
+}
+/* ----------testimonial End----------- */
+
+/* ----------Adress Map Start------------ */
+
+.adress-map .card-title{
+    font-weight: 600;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 25%);
+    transition: all .3s ease-in-out;
+}
+
+.adress-map .card-title:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.phone .fa-solid {
+    color: #002e5b;
+}
+
+.card {
+    box-shadow: 0 0 0 .3 #2d2d2e;
+}
+
+/* ----------Adress Map end------------ */
+
+
+/* -----------Footer Start------------ */
+
+footer{
+    min-height: 100px;
+    background-color: #002e5b;
+    color: #ffff;
+}
+
+footer span{
+    font-weight: 600;
+    color: #ddc50d;
+}
+
+.fa-brands{
+    font-size: 20px;
+}
+
+
+/* -----------Footer End------------ */
